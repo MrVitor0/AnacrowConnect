@@ -1,0 +1,34 @@
+{
+
+    "name" : "anacrow/anacrow",
+
+    "authors": [
+       {
+            "name": "anacrow",
+            "email": "webmaster@anacrow-projeto-final.com.br"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer":"5.2.22",
+        "slim/slim":"4.7",
+        "rain/raintpl":"3.0.0",
+        "slim/psr7": "^1.3",
+        "guzzlehttp/psr7": "^1.7",
+        "http-interop/http-factory-guzzle": "^1.0",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "laminas/laminas-diactoros": "^2.5",
+        "vlucas/phpdotenv": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "app\\models",
+            "Controller\\": "app\\controllers",
+            "Database\\": "app\\database",
+            "Middleware\\": "app\\middleware",
+            "Interface\\": "app\\interfaces"
+        }
+    }
+
+
+}
